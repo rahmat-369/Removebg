@@ -41,7 +41,7 @@ module.exports = async (req, res) => {
       method: 'POST',
       headers: {
         ...formData.getHeaders(),
-        'X-Api-Key': process.env.REMOVEBG_API_KEY,
+        'X-Api-Key': process.env.REMOVEBG_API_KEYY,
       },
     };
 
